@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+.hero_wrap {
+  font-family: "Roboto", sans-serif;
+  background-image: url("../../images/herophoto.jpg");
+  background-attachment: fixed;
+  width: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container{
+    height: 100%;
+  }
+  
+  .msg_box {
+    .box {
+      font-weight: 700;
+      color: #0779e4;
+      font-size: 16px;
+      letter-spacing: 2px;
+      background: #fff;
+      border-radius: 4px;
+      padding: 10px 9px;
+      }
+    .icon {
+      position: relative;
+      top: 23px;
+      left: -60px;
+      color: white;
+      }
+    }
+  
+
+  .text{
+    h1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px ;
+    line-height: 1.2;
+    }
+    .content{
+        p{
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+    .btn{
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    .social-media{
+        text-transform: uppercase;
+         font-weight: 700;
+         font-size: 15px;
+         letter-spacing: 1px;
+      a{
+        color: white;
+        margin-right: 20px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .hero_wrap {
+    background-image: url("../../images/2ndherophoto.jpg");
+  }
+  
+    .hero_wrap .msg_box .box {
+      font-size: 10px !important;
+      padding: 9px 8px !important;
+  }
+  .hero_wrap .msg_box .icon {
+    top: 20px !important;
+    left: -48px !important;
+}
+    .hero_wrap .text h1 {
+      font-size: 30px;
+    }
+    .hero_wrap .text .content p{
+      font-size: 16px !important;
+  }
+  .hero_wrap .text .btn {
+    font-size: 8px !important;
+    padding: 12px !important;
+  }
+  .hero_wrap .text .social-media {
+    font-size: 8px !important;
+  }
+  
+}
+

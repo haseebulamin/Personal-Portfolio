@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+#aboutMe{
+  .row {
+    font-family: "Roboto", sans-serif;
+    .col-md-12 {
+      .head {
+        font-size: 60px;
+        font-weight: 600;
+      }
+      .line {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .para {
+        line-height: 1.8;
+        color: #999999;
+        font-weight: 400;
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px){
+  #aboutMe .head {
+    font-size: 40px !important;
+  }
+  #aboutMe .line {
+    font-size: 25px !important;
+  }
+  #aboutMe .para {
+    font-size: 20px !important;
+  }
+}

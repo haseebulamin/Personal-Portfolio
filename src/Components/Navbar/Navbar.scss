@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+.navbar{
+    font-family: "Roboto", sans-serif;
+    .navbar-brand{
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .navbar-toggler{
+        border: none;
+        .navbar-toggler-icon:active,
+        .navbar-toggler-icon:focus{
+            border: none !important;
+        }
+    }
+   .nav-link{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+   }
+}

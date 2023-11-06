@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+#contact {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+
+  .container-fluid {
+    background-color: white;
+    h3 {
+        margin-top: 20px;
+      color: #000000;
+      font-weight: 400;
+      font-size: 37px;
+    }
+    p {
+      font-size: 22px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #999999;
+    }
+    .text {
+      p {
+        font-size: 22px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #999999;
+        span {
+          color: #000000;
+          display: block;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        a {
+          font-size: 22px;
+          line-height: 1.8;
+          font-weight: 400;
+          text-decoration: none;
+          color: #000000;
+        }
+      }
+    }
+    .input {
+      height: 55px;
+      background: #fff;
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 19px;
+      font-weight: 100;
+      border-radius: 5px;
+      box-shadow: none !important;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      outline: none;
+      &:focus {
+        border: 1px solid #0779e4;
+      }
+      &::placeholder{
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+    .textarea {
+      background: #fff;
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 19px;
+      font-weight: 100;
+      border-radius: 5px;
+      box-shadow: none !important;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      outline: none;
+      &:focus {
+        border: 1px solid #0779e4;
+      }
+      &::placeholder{
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+    .btn {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      cursor: pointer;
+      padding: 12px 15px;
+      background-color: #0779e4;
+      color: white;
+    }
+    p {
+      a {
+        font-size: 17px;
+        font-weight: 700;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+ @media only screen and (max-width: 600px){
+  #contact .btn{
+    font-size: 12px !important;
+    padding: 9px 11px !important;
+  }
+  .social{
+    display: grid !important;
+  }
+  .social a{
+    margin: 0px !important;
+    font-size: 15px !important;
+  }
+ }

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+#pricing{
+background-color: #f7f7f7;
+overflow: hidden;
+margin: 0px;
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    .para{
+        font-size: 17px;
+        color: #0779e4;
+        font-weight: 800;
+    }
+    .head{
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .card{
+        border: none;
+        .card-title{
+            margin-bottom: 0;
+            color: #0779e4;
+           text-transform: uppercase;
+           letter-spacing: 1px;
+            font-weight: 800;
+        }
+        .price{
+            color: #0779e4;
+            span{
+                margin-right: 5px;
+                padding-top: 6px;
+                font-size: 30px;
+                font-weight: 500;
+            }
+            h1{
+                font-size: 70px;
+                font-weight: 600;
+            }
+        }
+        .card-text{
+            font-size: 21px;
+            line-height: 1.8;
+            font-weight: 400;
+            color: #999999;
+        }
+        .btn{
+            font-size: 17px;
+            font-weight: 600;
+            width: 70%;
+            letter-spacing: 1px;
+        }
+    }
+}
+}
+
+@media only screen and (max-width: 600px){
+    #pricing  .head{
+        font-size: 40px !important;
+        margin-bottom: 0px !important;
+    }
+    #pricing .col-md-7{
+        margin-bottom: 0px !important;
+      }
+}

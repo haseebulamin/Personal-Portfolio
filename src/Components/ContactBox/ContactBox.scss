@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+#contactBox {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  background-color: #0779e4;
+
+  .row {
+    h2 {
+      color: #fff;
+      font-size: 37px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 23px;
+      line-height: 1.8;
+      font-weight: 500;
+    }
+    .btn{
+        border: 1px solid white;
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        &:hover{
+            background-color: white;
+            color: #0779e4;
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .row h2 {
+      font-size: 26px !important;
+    }
+    .row p {
+      font-size: 18px !important;
+    }
+    .row .btn{
+      font-size: 16px !important;
+  }
+  
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+#footer {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 25px 0px 5px 0px;
+  background-color: #ededed;
+  .head {
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .content{
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+  }
+  .box{
+    height: 55px;
+    width: 55px;
+    background-color: #0779e4;
+    .bi{
+      position: relative;
+    font-size: 24px;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+    }
+  }
+  .heading{
+    color: black;
+    font-weight: 500px;
+    font-size: 24px;
+  }
+  li{
+    margin-bottom: 25px;
+    .service-a{
+      text-decoration: none;
+      font-size: 23px;
+      color: #666666;
+      font-weight: 400;
+      transition: 0.3s all ease;
+      cursor: pointer;
+      &:hover{
+        color: #0779e4;
+      }
+    }
+    .icon{
+      width: 40px;
+      font-size: 18px;
+      padding-top: 3px;
+      color: #0779e4 ;
+    }
+    .info{
+      line-height: 1.5;
+      margin-bottom: 15px;
+      font-size: 21px;
+    }
+  }
+  .container-fluid{
+    p{
+      font-size: 18px;
+      font-weight: 500;
+      color: #999999;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+ .service-a{
+  font-size: 18px !important;
+ }
+ .info{
+  font-size: 18px !important;
+}
+}
