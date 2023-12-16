@@ -7,17 +7,18 @@ margin: 0px;
 .container{
     font-family: 'Roboto', sans-serif;
     .para{
-        font-size: 17px;
+        font-size: 16px;
         color: #0779e4;
-        font-weight: 800;
+        font-weight: 700;
     }
     .head{
-        font-size: 55px;
-        font-weight: 700;
+        font-size: 40px;
+        font-weight: 600;
     }
     .card{
         border: none;
         .card-title{
+            font-size: 14px;
             margin-bottom: 0;
             color: #0779e4;
            text-transform: uppercase;
@@ -27,38 +28,28 @@ margin: 0px;
         .price{
             color: #0779e4;
             span{
-                margin-right: 5px;
-                padding-top: 6px;
-                font-size: 30px;
-                font-weight: 500;
+                margin-right: 3px;
+                padding-top: 3px;
+                font-size: 24px;
+                font-weight: 400;
             }
             h1{
-                font-size: 70px;
+                font-size: 50px;
                 font-weight: 600;
             }
         }
         .card-text{
-            font-size: 21px;
+            font-size: 16px;
             line-height: 1.8;
             font-weight: 400;
             color: #999999;
         }
         .btn{
-            font-size: 17px;
+            font-size: 12px;
             font-weight: 600;
-            width: 70%;
             letter-spacing: 1px;
         }
     }
 }
 }
 
-@media only screen and (max-width: 600px){
-    #pricing  .head{
-        font-size: 40px !important;
-        margin-bottom: 0px !important;
-    }
-    #pricing .col-md-7{
-        margin-bottom: 0px !important;
-      }
-}
