@@ -65,7 +65,7 @@ export default function Contact(props) {
                             <input id='subject' type="subject" name='subject' autoComplete='off' className='w-100 input px-3 '  placeholder='Subject'/>
                             </div>
                             <div className="col-md-12 mt-3">
-                            <textarea autoComplete='off' name="message" autoCorrect='off' className='w-100 textarea px-3 py-2 ' id="message" cols="30" rows="4" placeholder='Create a message here'></textarea>
+                            <textarea autoComplete='off' name="message" autoCorrect='off' className='w-100 input px-3 py-2 ' id="message" cols="30" rows="4" placeholder='Create a message here'></textarea>
                             </div>
                             <div className="col-md-12 mt-3 mb-2">
                             <button type="submit" className="btn text-uppercase">Send message</button>

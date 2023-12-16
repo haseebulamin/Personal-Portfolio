@@ -9,28 +9,28 @@
         margin-top: 20px;
       color: #000000;
       font-weight: 400;
-      font-size: 37px;
+      font-size: 30px;
     }
     p {
-      font-size: 22px;
+      font-size: 16px;
       line-height: 1.8;
       font-weight: 400;
       color: #999999;
     }
     .text {
       p {
-        font-size: 22px;
+        font-size: 16px;
         line-height: 1.8;
         font-weight: 400;
         color: #999999;
         span {
           color: #000000;
           display: block;
-          font-size: 16px;
+          font-size: 13px;
           font-weight: 700;
         }
         a {
-          font-size: 22px;
+          font-size: 16px;
           line-height: 1.8;
           font-weight: 400;
           text-decoration: none;
@@ -39,26 +39,10 @@
       }
     }
     .input {
-      height: 55px;
+      height: 45px;
       background: #fff;
       color: rgba(0, 0, 0, 0.8);
-      font-size: 19px;
-      font-weight: 100;
-      border-radius: 5px;
-      box-shadow: none !important;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      outline: none;
-      &:focus {
-        border: 1px solid #0779e4;
-      }
-      &::placeholder{
-        color: rgba(0, 0, 0, 0.4);
-      }
-    }
-    .textarea {
-      background: #fff;
-      color: rgba(0, 0, 0, 0.8);
-      font-size: 19px;
+      font-size: 14px;
       font-weight: 100;
       border-radius: 5px;
       box-shadow: none !important;
@@ -72,7 +56,7 @@
       }
     }
     .btn {
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
       letter-spacing: 1px;
       cursor: pointer;
@@ -80,10 +64,13 @@
       background-color: #0779e4;
       color: white;
     }
+    h4{
+      font-size: 20px;
+    }
     p {
       a {
-        font-size: 17px;
-        font-weight: 700;
+        font-size: 14px;
+        font-weight: 500;
         cursor: pointer;
         text-decoration: none;
         &:hover {
@@ -93,16 +80,3 @@
     }
   }
 }
- @media only screen and (max-width: 600px){
-  #contact .btn{
-    font-size: 12px !important;
-    padding: 9px 11px !important;
-  }
-  .social{
-    display: grid !important;
-  }
-  .social a{
-    margin: 0px !important;
-    font-size: 15px !important;
-  }
- }
