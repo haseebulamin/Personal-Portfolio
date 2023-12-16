@@ -49,7 +49,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
@@ -78,7 +78,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
@@ -110,7 +110,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
@@ -139,7 +139,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
@@ -171,7 +171,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
@@ -200,7 +200,7 @@ export default function Blog(props) {
                 <div className="title ms-3 mb-3 mt-4">
                   <h3>Tips About Creating A New Web Design</h3>
                 </div>
-                <p className="card-text ms-3 mt-4 mb-5 ">
+                <p className="card-text ms-3 mt-4 mb-4 ">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia.
                 </p>
