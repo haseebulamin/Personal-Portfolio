@@ -11,7 +11,7 @@ export default function ContactBox() {
                     <p className='text-white-50'>Far far away, behind the word mountains</p>
                 </div>
                 <div className="col-md-4 d-flex align-items-center animate__animated animate__fadeInUp">
-                <button type="button" className="btn w-100 py-4 text-uppercase">Contact me</button>
+                <button type="button" className="btn w-100 py-3 text-uppercase">Contact me</button>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ export default function Hero(props) {
         <div className="overlay"></div>
         <div className="container d-flex align-items-center">
           <div className="row ">
-            <div className="col-md-7 ">
+            <div className="col-md-9 ">
               <div className="text animate__animated animate__fadeInUp">
                 <div className="msg_box my-3 animate__fadeInU">
                   <span className="box">Hi There!</span>
@@ -23,15 +23,15 @@ export default function Hero(props) {
                 <div className="content w-100 mb-4">
                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 </div>
-                <div className="btns my-5">
-                  <a href="/" className="btn btn-primary p-4 ">
+                <div className="btns my-4">
+                  <a href="/" className="btn btn-primary p-4 py-3 ">
                     Hire Me <span><i className="bi bi-arrow-right fw-bolder ms-2"></i></span>
                   </a>
-                  <a href="/" className="btn btn-light text-primary ms-4 p-4 ">
+                  <a href="/" className="btn btn-light text-primary ms-4 p-4 py-3 ">
                    view portfolio <span><i className="bi bi-arrow-right fw-bolder ms-2"></i></span>
                   </a>
                 </div>
-                <div className="social-media mt-5">
+                <div className="social-media mt-4">
                    <a href="http://www.facebook.com" target="_blank" rel="noreferrer">
                     <span><i className="bi bi-plus"></i></span>Facebook</a>
                    <a href="http://www.instagram.com" target="_blank" rel="noreferrer">

@@ -56,16 +56,16 @@ export default function Contact(props) {
                         <form action="">
                         <div className="row mt-1">
                             <div className="col-md-6 mt-3">
-                                <input type="text" className='w-100 input px-3' placeholder='Name'/>
+                                <input id='name' type="name" autoComplete='off' name='name' className='w-100 input px-3' placeholder='Name'/>
                             </div>
                             <div className="col-md-6 mt-3">
-                            <input type="email" className='w-100 input px-3 '  placeholder='Email'/>
+                            <input id='email' type="email" name='email' autoComplete='off'  className='w-100 input px-3 '  placeholder='Email'/>
                             </div>
                             <div className="col-md-12 mt-3">
-                            <input type="email" className='w-100 input px-3 '  placeholder='Subject'/>
+                            <input id='subject' type="subject" name='subject' autoComplete='off' className='w-100 input px-3 '  placeholder='Subject'/>
                             </div>
                             <div className="col-md-12 mt-3">
-                            <textarea name="message" className='w-100 textarea px-3 py-2 ' id="message" cols="30" rows="4" placeholder='Create a message here'></textarea>
+                            <textarea autoComplete='off' name="message" autoCorrect='off' className='w-100 textarea px-3 py-2 ' id="message" cols="30" rows="4" placeholder='Create a message here'></textarea>
                             </div>
                             <div className="col-md-12 mt-3 mb-2">
                             <button type="submit" className="btn text-uppercase">Send message</button>

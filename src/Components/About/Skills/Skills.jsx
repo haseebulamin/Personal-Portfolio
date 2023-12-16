@@ -5,7 +5,7 @@ export default function Skills() {
    <div id='skills'>
      <div className="row animate__animated animate__fadeInUp">
        <div className="col-md-12">
-        <h1 className='head my-5'>Skills</h1>
+        <h1 className='head my-4'>Skills</h1>
         <p className='para my-4'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         <div className="row">
             <div className="col-md-6 my-3">

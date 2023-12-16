@@ -21,25 +21,26 @@
         i{
           color: white;
           padding: 7px 25px;
-         font-size: 60px;
+         font-size: 45px;
          border-radius: 4px;
         background-color: #0779e4;
         
         }
       }
       .card-title {
+        font-size: 20px;
         font-weight: 700;
         color: #0779e4;
         margin-bottom: 10px;
       }
       .card-text {
-        font-size: 21px;
+        font-size: 16px;
         line-height: 1.8;
         font-weight: 500;
         color: #999999;
       }
       .card-link {
-        font-size: 20px;
+        font-size: 16px;
         text-decoration: none;
         color: #0779e4;
         font-weight: 500;
@@ -48,7 +49,7 @@
     .col-md-8 {
       p {
         font-weight: bolder;
-        font-size: 21px;
+        font-size: 16px;
         line-height: 1.8;
         color: #999999;
         a {
@@ -81,19 +82,19 @@
         color: white;
         .icon{
             i{
-                font-size: 80px;
+            font-size: 60px;
             margin-right: 30px;
             }
         }
         .text{
-            margin-top: 15px;
+            margin-top: 10px;
             h2{
-                font-size: 50px;
+                font-size: 38px;
                 font-weight: 700;
             }
             span{
                 text-transform: uppercase;
-                font-size: 18px;
+                font-size: 14px;
                 font-weight: 700;
             }
         }
@@ -107,9 +108,6 @@
   #service .head {
     font-size: 26px !important;
   margin-bottom: 0px !important;
-  }
-  #service .card-text {
-    font-size: 20px !important;
   }
   #service .col-md-8{
     padding-left: 28px;

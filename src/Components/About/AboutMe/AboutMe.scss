@@ -4,30 +4,19 @@
     font-family: "Roboto", sans-serif;
     .col-md-12 {
       .head {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 600;
       }
       .line {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
       }
       .para {
         line-height: 1.8;
         color: #999999;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 16px;
       }
     }
-  }
-}
-@media only screen and (max-width: 600px){
-  #aboutMe .head {
-    font-size: 40px !important;
-  }
-  #aboutMe .line {
-    font-size: 25px !important;
-  }
-  #aboutMe .para {
-    font-size: 20px !important;
   }
 }

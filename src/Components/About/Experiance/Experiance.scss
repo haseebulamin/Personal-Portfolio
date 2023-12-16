@@ -4,31 +4,20 @@
     font-family: "Roboto", sans-serif;
     .col-md-12 {
       .head {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
       }
       .para {
         color: #0779e4;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 13px;
       }
       .line {
           line-height: 1.8;
           color: #999999;
           font-weight: 400;
-          font-size: 24px;
+          font-size: 16px;
       }
     }
   }
-}
-@media only screen and (max-width: 600px){
-  #experiance .head {
-    font-size: 24px !important;
-  }
-  #experiance .para {
-    font-size: 16px !important;
-  }
-  #experiance .line{
-    font-size: 18px !important;
-}
 }

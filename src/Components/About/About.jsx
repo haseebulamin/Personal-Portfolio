@@ -1,9 +1,9 @@
 import React from 'react'
 import './About.scss'
-// import Experiance from './Experiance/Experiance'
+import Experiance from './Experiance/Experiance'
 import Navbar from '../Navbar/Navbar'
 // import AboutMe from './AboutMe/AboutMe'
-import Skills from './Skills/Skills'
+// import Skills from './Skills/Skills'
 import Footer from '../Footer/Footer'
 export default function About(props) {
   return (
@@ -17,7 +17,7 @@ export default function About(props) {
               </div>
             </div>
             <div className="col-md-6 mt-5 px-5 animate__animated animate__fadeInUp">
-              {/* <div className="row ">
+              <div className="row ">
                 <div className="col-md-12 d-flex align-items-start mt-3 ">
                 <div className="msg_box my-3 me-2 shadow-lg" >
                   <span className="box text-uppercase">About Me</span>
@@ -29,11 +29,11 @@ export default function About(props) {
                   <span className="box text-uppercase">experiance</span>
                 </div>
                 </div>
-              </div> */}
+              </div>
               <div className=''>
               {/* <AboutMe /> */}
-              <Skills />
-              {/* <Experiance /> */}
+              {/* <Skills /> */}
+              <Experiance />
               </div>
             </div>
         </div>

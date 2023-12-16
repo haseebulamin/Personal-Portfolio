@@ -7,18 +7,19 @@
   .row {
     h2 {
       color: #fff;
-      font-size: 37px;
+      font-size: 27px;
       font-weight: 500;
     }
     p {
-      font-size: 23px;
+      font-size: 16px;
       line-height: 1.8;
       font-weight: 500;
     }
     .btn{
+      // width: 85%;
         border: 1px solid white;
         color: white;
-        font-size: 17px;
+        font-size: 12px;
         font-weight: 700;
         letter-spacing: 1px;
         &:hover{
@@ -32,13 +33,7 @@
 @media only screen and (max-width: 600px) {
  
   .row h2 {
-      font-size: 26px !important;
+      font-size: 23px !important;
     }
-    .row p {
-      font-size: 18px !important;
-    }
-    .row .btn{
-      font-size: 16px !important;
-  }
   
 }

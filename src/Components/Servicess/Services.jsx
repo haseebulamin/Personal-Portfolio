@@ -12,7 +12,7 @@ export default function Services(props) {
             <div className="row justify-content-center">
                 <div className="col-md-7 mb-5 animate__animated animate__fadeInUp">
             <p className='para text-primary my-2 d-block text-center text-uppercase '>services</p>
-            <h1 className=' head text-center lh-base  mb-4 '>This is My Expertise, The <br /> Services I'll Provide My Clientss</h1>
+            <h1 className=' head text-center lh-base  mb-4 '>This is My Expertise, The Services I'll Provide My Clientss</h1>
             </div>
             </div>
         {/* 2nd row  */}

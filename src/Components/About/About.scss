@@ -8,16 +8,16 @@
     background-image: url("../../images/About.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 600px;
     position: relative;
     width: 100%;
     z-index: 2;
     &::before {
       position: absolute;
-      bottom: 110px;
-      left: -30px;
-      width: 30px;
-      height: 300px;
+      bottom: 70px;
+      left: -15px;
+      width: 15px;
+      height: 270px;
       content: "";
       background: linear-gradient(
         to top,
@@ -32,7 +32,7 @@
     .box {
       font-weight: 700;
       color: #777777;
-      font-size: 20px;
+      font-size: 13px;
       background: #fff;
       border-radius: 4px;
       padding: 15px;
@@ -51,7 +51,7 @@
   }
   .msg_box {
     .box {
-      font-size: 12px !important;
+      font-size: 11px !important;
       padding: 12px !important;
       }
     }

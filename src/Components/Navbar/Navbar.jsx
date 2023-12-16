@@ -14,13 +14,13 @@ export default function Navbar(props) {
       <span className="menu">MENU</span></button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" aria-current="page" to="/">Home</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" to="/about">About</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" to="/services">Services</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" to="/portfolio">Portfolio</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" to="/pricing">Pricing</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4 mx-1" to="/blog">Blog</Link></li>
-        <li className="nav-item"><Link className="nav-link py-4 px-4" to="/contact">Contact</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" aria-current="page" to="/">Home</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" to="/about">About</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" to="/services">Services</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" to="/portfolio">Portfolio</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" to="/pricing">Pricing</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4 mx-1" to="/blog">Blog</Link></li>
+        <li className="nav-item"><Link className="nav-link py-3 px-4" to="/contact">Contact</Link></li>
         </ul>
     </div>
   </div>
